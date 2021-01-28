@@ -1,0 +1,869 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4167b2fb51ef5146bb9281fed590af0, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  LevelDatas:
+  - BoardSize: {x: 4, y: 4}
+    Pieces:
+    - PieceColor: {r: 0.5354102, g: 0.36266917, b: 0.18885005, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 00000000010000000300000002000000
+    - PieceColor: {r: 0.82706964, g: 0.9247316, b: 0.6900027, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+    - PieceColor: {r: 0.8318335, g: 0.15556061, b: 0.1869539, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 02000000010000000300000000000000
+    - PieceColor: {r: 0.8671844, g: 0.27409774, b: 0.31215018, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 020000000100000003000000
+    - PieceColor: {r: 0.2707166, g: 0.31591302, b: 0.4523968, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.73708236, g: 0.802773, b: 0.63912797, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+  - BoardSize: {x: 4, y: 4}
+    Pieces:
+    - PieceColor: {r: 0.61567384, g: 0.6470208, b: 0.75616634, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 030000000000000002000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 0200000003000000
+    - PieceColor: {r: 0.1583041, g: 0.60206825, b: 0.504258, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 020000000100000003000000
+    - PieceColor: {r: 0.5939805, g: 0.26720518, b: 0.2922352, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.56458, g: 0.13870287, b: 0.16776049, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 01000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 0200000001000000
+    - PieceColor: {r: 0.52920455, g: 0.99025667, b: 0.67296505, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 0200000003000000
+    - PieceColor: {r: 0.30039293, g: 0.6619731, b: 0.55281824, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 0100000000000000
+  - BoardSize: {x: 4, y: 4}
+    Pieces:
+    - PieceColor: {r: 0.075496316, g: 0.63118637, b: 0.8281523, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 0300000000000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 02000000010000000300000000000000
+    - PieceColor: {r: 0.15485859, g: 0.8035357, b: 0.9857625, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 0000000003000000
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 01000000
+    - PieceColor: {r: 0.6522192, g: 0.9446523, b: 0.9768952, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 0100000002000000
+    - PieceColor: {r: 0.02398932, g: 0.6150097, b: 0.64519346, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 0200000003000000
+    - PieceColor: {r: 0.6252103, g: 0.8806689, b: 0.7857127, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 0000000001000000
+    - PieceColor: {r: 0.6522093, g: 0.50074476, b: 0.47325236, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 0300000002000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 02000000
+  - BoardSize: {x: 5, y: 5}
+    Pieces:
+    - PieceColor: {r: 0.48455006, g: 0.84709585, b: 0.30287737, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 4}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 4, y: 3}
+        IncludedPoles: 03000000000000000200000001000000
+    - PieceColor: {r: 0.07206118, g: 0.10795617, b: 0.762733, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 0300000000000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 0100000000000000
+    - PieceColor: {r: 0.2353481, g: 0.25060028, b: 0.8457675, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 4, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 0200000001000000
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+    - PieceColor: {r: 0.557465, g: 0.78264725, b: 0.17441785, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 0300000002000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 0000000003000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 0100000000000000
+    - PieceColor: {r: 0.07972038, g: 0.8668692, b: 0.5469015, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 0300000000000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 0200000001000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 01000000
+    - PieceColor: {r: 0.41216773, g: 0.765038, b: 0.026058674, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 0300000000000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 0, y: 4}
+        IncludedPoles: 02000000010000000300000000000000
+    - PieceColor: {r: 0.053928018, g: 0.12741399, b: 0.86437714, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 000000000100000003000000
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 0300000002000000
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 0200000003000000
+    - PieceColor: {r: 0.11702001, g: 0.16268814, b: 0.50172704, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 0100000002000000
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 00000000010000000300000002000000
+    - PieceColor: {r: 0.024441123, g: 0.2892062, b: 0.3749556, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 0000000001000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 0200000001000000
+  - BoardSize: {x: 5, y: 5}
+    Pieces:
+    - PieceColor: {r: 0.67734003, g: 0.9407158, b: 0.26115757, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 4}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 0000000003000000
+    - PieceColor: {r: 0.5928865, g: 0.2113421, b: 0.09492779, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 0100000002000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 0000000003000000
+    - PieceColor: {r: 0.2537307, g: 0.43308586, b: 0.2391249, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 0300000000000000
+    - PieceColor: {r: 0.7721691, g: 0.6581719, b: 0.3107844, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 01000000
+    - PieceColor: {r: 0.602657, g: 0.15127969, b: 0.6213656, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 01000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 0200000001000000
+    - PieceColor: {r: 0.06327927, g: 0.96110463, b: 0.73153675, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 02000000010000000300000000000000
+    - PieceColor: {r: 0.12871194, g: 0.9057541, b: 0.4718364, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 2}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 4, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 0300000002000000
+      - TileBoardPosition: {x: 4, y: 4}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 0100000002000000
+    - PieceColor: {r: 0.0076100826, g: 0.0026705265, b: 0.8154161, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 01000000
+    - PieceColor: {r: 0.9429513, g: 0.2967605, b: 0.6721451, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 030000000000000002000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 0100000000000000
+  - BoardSize: {x: 5, y: 5}
+    Pieces:
+    - PieceColor: {r: 0.2637567, g: 0.57238835, b: 0.8878511, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 3}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 4, y: 2}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 4, y: 4}
+        IncludedPoles: 0100000002000000
+    - PieceColor: {r: 0.3076585, g: 0.6185213, b: 0.37264675, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 030000000000000002000000
+      - TileBoardPosition: {x: 0, y: 4}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.4727648, g: 0.6604965, b: 0.23922622, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 4, y: 4}
+        IncludedPoles: 0000000003000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 03000000
+    - PieceColor: {r: 0.9026884, g: 0.66667163, b: 0.7179687, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 0300000002000000
+    - PieceColor: {r: 0.4508143, g: 0.29963034, b: 0.73912835, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 0300000000000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 0300000002000000
+    - PieceColor: {r: 0.5524872, g: 0.4085948, b: 0.75107574, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 0, y: 4}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.001887083, g: 0.31451613, b: 0.6679597, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 01000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 0000000001000000
+    - PieceColor: {r: 0.0025398731, g: 0.2669533, b: 0.5337896, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.906427, g: 0.875177, b: 0.5974532, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 0200000001000000
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 0000000001000000
+  - BoardSize: {x: 6, y: 6}
+    Pieces:
+    - PieceColor: {r: 0.5551204, g: 0.46474093, b: 0.48009664, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 4, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 5, y: 1}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 5, y: 2}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 4, y: 3}
+        IncludedPoles: 0100000002000000
+      - TileBoardPosition: {x: 5, y: 3}
+        IncludedPoles: 010000000000000002000000
+    - PieceColor: {r: 0.48754555, g: 0.68873, b: 0.1994443, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 000000000100000003000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 0200000001000000
+    - PieceColor: {r: 0.58745545, g: 0.054660797, b: 0.39174014, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 01000000
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 0200000001000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 0300000000000000
+    - PieceColor: {r: 0.3448859, g: 0.39580327, b: 0.43461806, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 5}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 0300000000000000
+      - TileBoardPosition: {x: 1, y: 5}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 3, y: 5}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.6510258, g: 0.8139019, b: 0.04363084, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 0300000000000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 0100000000000000
+    - PieceColor: {r: 0.9888731, g: 0.24069202, b: 0.8245394, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 5}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 3, y: 5}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 4, y: 4}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 5, y: 5}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 5, y: 4}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 4, y: 3}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 5, y: 3}
+        IncludedPoles: 03000000
+    - PieceColor: {r: 0.6113277, g: 0.47607678, b: 0.6695572, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 0100000002000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 0000000003000000
+    - PieceColor: {r: 0.2656482, g: 0.84315145, b: 0.36345357, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 0100000002000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.818079, g: 0.06710327, b: 0.90179825, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 0000000003000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 0200000003000000
+    - PieceColor: {r: 0.63532245, g: 0.3463176, b: 0.9088967, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 0, y: 4}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 1, y: 5}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 0, y: 5}
+        IncludedPoles: 01000000000000000200000003000000
+    - PieceColor: {r: 0.482835, g: 0.05642569, b: 0.46854073, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 5, y: 0}
+        IncludedPoles: 00000000010000000300000002000000
+    - PieceColor: {r: 0.85279894, g: 0.35891408, b: 0.63472974, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 0200000001000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 4, y: 3}
+        IncludedPoles: 00000000
+  - BoardSize: {x: 6, y: 6}
+    Pieces:
+    - PieceColor: {r: 0.99367034, g: 0.19113946, b: 0.11146748, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 5}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 2, y: 5}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 4, y: 5}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 1, y: 5}
+        IncludedPoles: 0200000003000000
+    - PieceColor: {r: 0.2722419, g: 0.55247205, b: 0.5543534, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 000000000100000003000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.42628092, g: 0.25892693, b: 0.15040195, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 0100000002000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.14245915, g: 0.13238811, b: 0.8552072, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 4, y: 4}
+        IncludedPoles: 000000000100000003000000
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 0200000001000000
+      - TileBoardPosition: {x: 4, y: 3}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 4, y: 5}
+        IncludedPoles: 01000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 0300000002000000
+    - PieceColor: {r: 0.69010556, g: 0.83413446, b: 0.08501172, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 5, y: 2}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 5, y: 3}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 4, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 5, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 03000000
+    - PieceColor: {r: 0.3140791, g: 0.26612586, b: 0.52160126, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 010000000000000002000000
+    - PieceColor: {r: 0.07405472, g: 0.14093721, b: 0.4209041, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 0000000001000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 03000000
+    - PieceColor: {r: 0.53797835, g: 0.284576, b: 0.3670891, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 0, y: 4}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 0, y: 5}
+        IncludedPoles: 01000000000000000200000003000000
+    - PieceColor: {r: 0.8303399, g: 0.1986413, b: 0.43157965, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 0100000002000000
+      - TileBoardPosition: {x: 5, y: 0}
+        IncludedPoles: 00000000010000000300000002000000
+    - PieceColor: {r: 0.11901224, g: 0.037425756, b: 0.23040581, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 020000000100000003000000
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 00000000
+      - TileBoardPosition: {x: 1, y: 5}
+        IncludedPoles: 0100000000000000
+    - PieceColor: {r: 0.3560384, g: 0.46656996, b: 0.62758124, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 5, y: 5}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 5, y: 4}
+        IncludedPoles: 0300000002000000
+      - TileBoardPosition: {x: 4, y: 5}
+        IncludedPoles: 0200000003000000
+    - PieceColor: {r: 0.4554544, g: 0.8335873, b: 0.089740515, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 5, y: 4}
+        IncludedPoles: 0000000001000000
+      - TileBoardPosition: {x: 4, y: 4}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 5, y: 3}
+        IncludedPoles: 03000000
+  - BoardSize: {x: 6, y: 6}
+    Pieces:
+    - PieceColor: {r: 0.15806353, g: 0.03323698, b: 0.21046138, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 030000000000000002000000
+      - TileBoardPosition: {x: 2, y: 3}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 4, y: 3}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 4, y: 2}
+        IncludedPoles: 000000000100000003000000
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 0100000000000000
+    - PieceColor: {r: 0.71216476, g: 0.2556482, b: 0.25485736, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 0, y: 2}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 2}
+        IncludedPoles: 000000000100000003000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 01000000
+    - PieceColor: {r: 0.81874466, g: 0.030213714, b: 0.8921206, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 1, y: 1}
+        IncludedPoles: 010000000000000002000000
+      - TileBoardPosition: {x: 1, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 0, y: 1}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 0000000003000000
+      - TileBoardPosition: {x: 0, y: 0}
+        IncludedPoles: 02000000010000000300000000000000
+    - PieceColor: {r: 0.4974, g: 0.4066723, b: 0.823459, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 030000000000000002000000
+      - TileBoardPosition: {x: 2, y: 1}
+        IncludedPoles: 0100000002000000
+      - TileBoardPosition: {x: 3, y: 0}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 00000000
+    - PieceColor: {r: 0.34175783, g: 0.019781709, b: 0.5188858, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 2, y: 0}
+        IncludedPoles: 01000000
+    - PieceColor: {r: 0.5945639, g: 0.77854204, b: 0.6940706, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 5, y: 4}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 4, y: 4}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 5, y: 3}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 5, y: 5}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 4, y: 5}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 3, y: 5}
+        IncludedPoles: 0200000003000000
+    - PieceColor: {r: 0.32755214, g: 0.94697213, b: 0.7917812, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 5, y: 1}
+        IncludedPoles: 02000000010000000300000000000000
+      - TileBoardPosition: {x: 5, y: 0}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 5, y: 2}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 0200000001000000
+      - TileBoardPosition: {x: 4, y: 2}
+        IncludedPoles: 02000000
+    - PieceColor: {r: 0.75799143, g: 0.3434201, b: 0.2821595, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 3}
+        IncludedPoles: 03000000
+      - TileBoardPosition: {x: 3, y: 4}
+        IncludedPoles: 01000000000000000200000003000000
+      - TileBoardPosition: {x: 2, y: 4}
+        IncludedPoles: 0200000003000000
+      - TileBoardPosition: {x: 3, y: 5}
+        IncludedPoles: 0100000000000000
+      - TileBoardPosition: {x: 2, y: 5}
+        IncludedPoles: 0100000002000000
+    - PieceColor: {r: 0.8346323, g: 0.019269109, b: 0.95790815, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 4}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 0, y: 5}
+        IncludedPoles: 01000000
+      - TileBoardPosition: {x: 1, y: 4}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 0, y: 3}
+        IncludedPoles: 030000000000000002000000
+      - TileBoardPosition: {x: 1, y: 3}
+        IncludedPoles: 03000000
+    - PieceColor: {r: 0.8803954, g: 0.8002088, b: 0.815735, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 5}
+        IncludedPoles: 0000000003000000
+    - PieceColor: {r: 0.98213077, g: 0.13081717, b: 0.8061986, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 0, y: 5}
+        IncludedPoles: 02000000
+      - TileBoardPosition: {x: 1, y: 5}
+        IncludedPoles: 00000000010000000300000002000000
+      - TileBoardPosition: {x: 2, y: 5}
+        IncludedPoles: 0000000003000000
+    - PieceColor: {r: 0.7537025, g: 0.41908103, b: 0.44581646, a: 1}
+      Tiles:
+      - TileBoardPosition: {x: 3, y: 1}
+        IncludedPoles: 03000000000000000200000001000000
+      - TileBoardPosition: {x: 3, y: 2}
+        IncludedPoles: 01000000
+      - TileBoardPosition: {x: 4, y: 1}
+        IncludedPoles: 000000000100000003000000
+      - TileBoardPosition: {x: 4, y: 0}
+        IncludedPoles: 03000000
